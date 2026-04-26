@@ -942,11 +942,12 @@ footer {
 }
 
 
-/* ─── KEYFRAMES ──────────────────────────────────────── */
+/* ─── KEYFRAMES  (ANIMATIONS) ───────────────────────────────────────── */
 @keyframes slideUp { to { opacity: 1; transform: translateY(0); } }
 @keyframes fadeIn  { to { opacity: 1; } }
 
-/* ─── RESPONSIVE ─────────────────────────────────────── */
+/* ─── RESPONSIVE / ADAPTATION TABLETTE ET MOBILE ─────────────────────────────────────── */
+/* Ici on gère les écrans plus petits, sans modifier le design de l'ordi */
 @media (max-width: 1024px) {
   .footer-top { grid-template-columns: 1fr 1fr; }
   #accueil { grid-template-columns: 1fr; gap: 3rem; padding: 5rem 6%; }

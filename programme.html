@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Programme hebdomadaire de l'Église Lumière & Grâce - Découvrez nos cultes, réunions de prière et activités communautaires à Abidjan." />
+  <meta name="keywords" content="programme église, cultes chrétiens, horaires messes, Abidjan, prière, communauté" />
   <title>Programme - Église Lumière & Grâce</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,8 +27,8 @@
   <ul class="nav-links">
     <li><a href="index.html#accueil">Accueil</a></li>
     <li><a href="programme.html" class="nav-cta">Programme</a></li>
-    <li><a href="eglise.html#galerie">Galerie</a></li>
-    <li><a href="eglise.html#contact">Contact</a></li>
+    <li><a href="index.html#galerie">Galerie</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
   </ul>
   <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
     <span></span><span></span><span></span>
@@ -36,10 +38,11 @@
 <nav class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Menu mobile" aria-hidden="true">
   <a href="index.html#accueil" onclick="closeMenu()">Accueil</a>
   <a href="programme.html" onclick="closeMenu()">Programme</a>
-  <a href="eglise.html#galerie" onclick="closeMenu()">Galerie</a>
-  <a href="eglise.html#contact" onclick="closeMenu()">Contact</a>
+  <a href="index.html#galerie" onclick="closeMenu()">Galerie</a>
+  <a href="index.html#contact" onclick="closeMenu()">Contact</a>
 </nav>
 
+<!-- CONTENU PRINCIPAL DE LA PAGE PROGRAMME -->
 <main>
   <section id="hero">
     <div class="hero-bg">
@@ -60,6 +63,7 @@
     </div>
   </section>
 
+  <!-- SECTION PROGRAMME : horaires détaillés et présentation des services -->
   <section id="programme">
     <div class="section-label reveal">Programme</div>
     <h2 class="section-title reveal delay-1">Nos <em>rencontres</em> et services</h2>
@@ -101,6 +105,85 @@
 
     <div class="programme-note reveal delay-4">
       <p><strong>Note :</strong> Les horaires peuvent varier lors des jours fériés et fêtes chrétiennes. Consultez notre page d'accueil pour les annonces spéciales.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ HORAIRES ═══════════════════ -->
+  <section id="horaires">
+    <p class="section-label reveal justify-center">Programme</p>
+    <h2 class="section-title reveal delay-1 section-title light text-center">Nos <em class="text-gold">Cultes</em> & Réunions</h2>
+
+    <div class="horaires-grid">
+      <div class="horaire-card reveal delay-1">
+        <span class="icon">🕊️</span>
+        <p class="horaire-day">Dimanche Matin</p>
+        <p class="horaire-service">Culte Principal</p>
+        <p class="horaire-time">09h00 — 11h30</p>
+      </div>
+      <div class="horaire-card reveal delay-2">
+        <span class="icon">📖</span>
+        <p class="horaire-day">Dimanche Soir</p>
+        <p class="horaire-service">École du Dimanche</p>
+        <p class="horaire-time">15h00 — 16h30</p>
+      </div>
+      <div class="horaire-card reveal delay-3">
+        <span class="icon">🙏</span>
+        <p class="horaire-day">Mercredi</p>
+        <p class="horaire-service">Réunion de Prière</p>
+        <p class="horaire-time">18h00 — 19h30</p>
+      </div>
+      <div class="horaire-card reveal delay-4">
+        <span class="icon">🎵</span>
+        <p class="horaire-day">Vendredi</p>
+        <p class="horaire-service">Louange & Adoration</p>
+        <p class="horaire-time">19h00 — 21h00</p>
+      </div>
+    </div>
+    <p class="horaires-note reveal">* Les horaires peuvent varier lors des jours fériés et fêtes chrétiennes.</p>
+  </section>
+
+  <!-- SECTION TEMPS FORTS : activités complémentaires de la semaine -->
+  <section id="temps-forts">
+    <p class="section-label reveal">Moments forts</p>
+    <h2 class="section-title reveal delay-1">Ce qui vous attend cette semaine</h2>
+    <p class="section-desc reveal delay-2">
+      Les temps forts du programme vont au-delà du culte : ateliers, rencontres et engagements concrets
+      pour toute la famille. Choisissez votre moment et rejoignez-nous pour vivre la foi ensemble.
+    </p>
+
+    <div class="services-grid reveal delay-3">
+      <div class="service-card">
+        <div class="service-icon">💬</div>
+        <h3 class="service-title">Atelier biblique</h3>
+        <p class="service-time">Mercredi · 19h30</p>
+        <p class="service-desc">
+          Étude conviviale de la Parole pour approfondir la foi et la mettre en pratique chaque jour.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">👨‍👩‍👧‍👦</div>
+        <h3 class="service-title">Rencontre des familles</h3>
+        <p class="service-time">Samedi · 10h00</p>
+        <p class="service-desc">
+          Partage, prière et accompagnement des couples et parents dans leur marche spirituelle.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔊</div>
+        <h3 class="service-title">Groupe de louange</h3>
+        <p class="service-time">Vendredi · 18h00</p>
+        <p class="service-desc">
+          Répétition ouverte à tous ceux qui souhaitent servir par la musique et l'adoration.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🤝</div>
+        <h3 class="service-title">Visites & soutien</h3>
+        <p class="service-time">Jeudi · 17h00</p>
+        <p class="service-desc">
+          Moments de soutien pour les familles, les malades et les personnes en difficulté.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -212,6 +295,7 @@
   </section>
 </main>
 
+<!-- FOOTER : bas de page, liens utiles et partenaires -->
 <footer>
   <div class="footer-top">
     <div class="footer-brand">
@@ -226,10 +310,10 @@
     <div class="footer-col">
       <h4>Navigation</h4>
       <ul>
-        <li><a href="eglise.html#hero">Accueil</a></li>
+        <li><a href="index.html#accueil">Accueil</a></li>
         <li><a href="programme.html">Programme</a></li>
-        <li><a href="eglise.html#galerie">Galerie</a></li>
-        <li><a href="eglise.html#contact">Contact</a></li>
+        <li><a href="index.html#galerie">Galerie</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -244,7 +328,7 @@
     <div class="footer-col">
       <h4>Ressources</h4>
       <ul>
-        <li><a href="eglise.html#videos">Médias</a></li>
+        <li><a href="index.html#videos">Médias</a></li>
         <li><a href="#">Blog spirituel</a></li>
         <li><a href="#">Événements</a></li>
         <li><a href="#">FAQ</a></li>
@@ -285,6 +369,20 @@
     mobileMenu.setAttribute('aria-hidden', 'true');
     burger.setAttribute('aria-expanded', 'false');
     document.body.style.overflow = '';
+  }
+
+  const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+  if (revealEls.length > 0) {
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    revealEls.forEach((el) => revealObserver.observe(el));
   }
 </script>
 </body>
