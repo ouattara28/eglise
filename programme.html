@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programme - Église Lumière & Grâce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="navbar" role="navigation" aria-label="Menu principal">
+  <div class="nav-partners">
+    <div class="partner-item">
+      <img src="image logo/WhatsApp Image 2026-04-25 at 00.08.39.jpeg" alt="Église la Fondation Vivante">
+      <span><strong>Église la Fondation Vivante</strong></span>
+    </div>
+    <div class="partner-item">
+      <img src="image logo/WhatsApp Image 2026-04-25 at 00.08.05.jpeg" alt="Communauté Fréquence Prophetique">
+      <span><strong>Communauté Fréquence Prophetique</strong></span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="eglise.html#hero">Accueil</a></li>
+    <li><a href="programme.html" class="nav-cta">Programme</a></li>
+    <li><a href="eglise.html#galerie">Galerie</a></li>
+    <li><a href="eglise.html#contact">Contact</a></li>
+  </ul>
+  <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Menu mobile" aria-hidden="true">
+  <a href="eglise.html#hero" onclick="closeMenu()">Accueil</a>
+  <a href="programme.html" onclick="closeMenu()">Programme</a>
+  <a href="eglise.html#galerie" onclick="closeMenu()">Galerie</a>
+  <a href="eglise.html#contact" onclick="closeMenu()">Contact</a>
+</nav>
+
+<main>
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-bg-placeholder">Programme officiel</div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">Planifiez votre présence</div>
+      <h1 class="hero-title">Programme <em>hebdomadaire</em> de l'Église</h1>
+      <div class="hero-divider"></div>
+      <p class="hero-sub">
+        Découvrez nos rencontres, cultes, écoles bibliques et temps de prière.
+        Une semaine structurée pour grandir dans la foi et la communauté.
+      </p>
+      <div class="hero-btns">
+        <a href="#programme" class="btn-gold">Voir le programme</a>
+        <a href="#infos" class="btn-outline">Plus d'informations</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="programme">
+    <div class="section-label reveal">Programme</div>
+    <h2 class="section-title reveal delay-1">Nos <em>rencontres</em> et services</h2>
+    <p class="section-desc reveal delay-2">
+      Chaque activité est pensée pour vous accompagner dans la louange, l'enseignement et la vie communautaire.
+      Retrouvez ici le calendrier détaillé de la semaine.
+    </p>
+
+    <div class="horaires-grid reveal delay-3">
+      <div class="horaire-card">
+        <span class="icon">🕊️</span>
+        <p class="horaire-day">Dimanche Matin</p>
+        <p class="horaire-service">Culte Principal</p>
+        <p class="horaire-time">09h00 — 11h30</p>
+        <p class="horaire-desc">Louange, enseignement biblique et adoration familiale</p>
+      </div>
+      <div class="horaire-card">
+        <span class="icon">📖</span>
+        <p class="horaire-day">Dimanche Soir</p>
+        <p class="horaire-service">École du Dimanche</p>
+        <p class="horaire-time">15h00 — 16h30</p>
+        <p class="horaire-desc">Étude approfondie de la Parole pour tous les âges</p>
+      </div>
+      <div class="horaire-card">
+        <span class="icon">🙏</span>
+        <p class="horaire-day">Mercredi</p>
+        <p class="horaire-service">Réunion de prière</p>
+        <p class="horaire-time">18h00 — 19h30</p>
+        <p class="horaire-desc">Intercession collective et communion spirituelle</p>
+      </div>
+      <div class="horaire-card">
+        <span class="icon">🎵</span>
+        <p class="horaire-day">Vendredi</p>
+        <p class="horaire-service">Louange & Adoration</p>
+        <p class="horaire-time">19h00 — 21h00</p>
+        <p class="horaire-desc">Musique, prière et célébration du Seigneur</p>
+      </div>
+    </div>
+
+    <div class="programme-note reveal delay-4">
+      <p><strong>Note :</strong> Les horaires peuvent varier lors des jours fériés et fêtes chrétiennes. Consultez notre page d'accueil pour les annonces spéciales.</p>
+    </div>
+  </section>
+
+  <section id="infos">
+    <div class="section-label reveal">Services</div>
+    <h2 class="section-title reveal delay-1">Détails des cultes et rencontres</h2>
+    <div class="services-grid reveal delay-2">
+      <div class="service-card">
+        <div class="service-icon">🕊️</div>
+        <h3 class="service-title">Culte principal du dimanche</h3>
+        <p class="service-time">Dimanche · 09h00 - 11h30</p>
+        <p class="service-desc">
+          Un temps de louange, d'enseignement biblique et d'adoration pour toute la famille.
+          Venez célébrer la présence de Dieu dans un environnement chaleureux.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📖</div>
+        <h3 class="service-title">École du dimanche soir</h3>
+        <p class="service-time">Dimanche · 15h00 - 16h30</p>
+        <p class="service-desc">
+          Enseignement pratique et profond pour grandir dans la parole, la foi et la vie chrétienne.
+          Adapté à tous les âges avec des groupes spécifiques.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🙏</div>
+        <h3 class="service-title">Réunion de prière</h3>
+        <p class="service-time">Mercredi · 18h00 - 19h30</p>
+        <p class="service-desc">
+          Un moment fort de communion pour intercéder ensemble et vivre la présence de Dieu.
+          Partagez vos prières et recevez du soutien spirituel.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎵</div>
+        <h3 class="service-title">Louange & Adoration</h3>
+        <p class="service-time">Vendredi · 19h00 - 21h00</p>
+        <p class="service-desc">
+          Temps de musique, de prière et de célébration pour élever le nom de Jésus ensemble.
+          Laissez-vous emporter par la puissance de l'adoration.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ministères" style="background: var(--cream);">
+    <div class="section-label reveal">Ministères</div>
+    <h2 class="section-title reveal delay-1">Nos <em>groupes</em> et activités</h2>
+    <p class="section-desc reveal delay-2">
+      Au-delà des cultes hebdomadaires, rejoignez nos ministères spécialisés pour servir,
+      grandir et vivre une foi active dans votre quotidien.
+    </p>
+
+    <div class="ministères-grid reveal delay-3">
+      <div class="ministère-card">
+        <div class="ministère-icon">👨‍👩‍👧‍👦</div>
+        <h3 class="ministère-title">Ministère des Familles</h3>
+        <p class="ministère-desc">Accompagnement des couples et familles dans leur marche chrétienne.</p>
+      </div>
+      <div class="ministère-card">
+        <div class="ministère-icon">🎵</div>
+        <h3 class="ministère-title">Groupe de Louange</h3>
+        <p class="ministère-desc">Participez à la musique et à l'adoration pour glorifier Dieu.</p>
+      </div>
+      <div class="ministère-card">
+        <div class="ministère-icon">🧑‍🎓</div>
+        <h3 class="ministère-title">Jeunesse</h3>
+        <p class="ministère-desc">Rencontres et activités pour les jeunes de 13 à 30 ans.</p>
+      </div>
+      <div class="ministère-card">
+        <div class="ministère-icon">🤝</div>
+        <h3 class="ministère-title">Actions Sociales</h3>
+        <p class="ministère-desc">Service aux plus démunis et œuvres caritatives locales.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="background: var(--white);">
+    <div class="section-label reveal">Contact</div>
+    <h2 class="section-title reveal delay-1">Besoin de <em>renseignements</em> ?</h2>
+    <p class="section-desc reveal delay-2">
+      Notre équipe est à votre disposition pour répondre à vos questions sur le programme,
+      vous aider à choisir le service adapté ou vous accompagner dans votre démarche.
+    </p>
+    <div class="contact-info reveal delay-3" style="padding-right: 0;">
+      <div class="contact-detail">
+        <div class="contact-icon">📍</div>
+        <div class="contact-text">
+          <small>Adresse</small>
+          <p>12 Rue de l'Évangile, Cocody, Abidjan</p>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-text">
+          <small>Email</small>
+          <p>contact@eglise-lumiere.ci</p>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">📞</div>
+        <div class="contact-text">
+          <small>Téléphone</small>
+          <p>+225 07 XX XX XX XX</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="nav-logo">
+        <div class="logo-img">
+          <img src="image logo/WhatsApp Image 2026-04-25 at 00.08.05.jpeg" alt="Logo - La Fréquence du Saint Esprit">
+        </div>
+        <span class="logo-name" style="color: var(--white)">Lumière <span style="color: var(--gold)">& Grâce</span></span>
+      </div>
+      <p>Découvrez un programme clair, respectueux et conçu pour faire grandir votre foi chaque semaine.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="eglise.html#hero">Accueil</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="eglise.html#galerie">Galerie</a></li>
+        <li><a href="eglise.html#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Informations</h4>
+      <ul>
+        <li><a href="#programme">Services</a></li>
+        <li><a href="#infos">Ateliers</a></li>
+        <li><a href="#contact">Inscription</a></li>
+        <li><a href="#">À propos</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Ressources</h4>
+      <ul>
+        <li><a href="eglise.html#videos">Médias</a></li>
+        <li><a href="#">Blog spirituel</a></li>
+        <li><a href="#">Événements</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Église Lumière & Grâce — Tous droits réservés</span>
+    <span>Fait avec ❤️ pour la gloire de Dieu · <a href="#">Politique de confidentialité</a></span>
+  </div>
+</footer>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  const burger = document.getElementById('burger');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  if (burger && mobileMenu) {
+    mobileMenu.setAttribute('aria-hidden', 'true');
+    burger.addEventListener('click', () => {
+      const isOpen = !mobileMenu.classList.contains('open');
+      burger.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+      mobileMenu.setAttribute('aria-hidden', String(!isOpen));
+      burger.setAttribute('aria-expanded', String(isOpen));
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+  }
+
+  function closeMenu() {
+    if (!burger || !mobileMenu) return;
+    burger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    mobileMenu.setAttribute('aria-hidden', 'true');
+    burger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+</script>
+</body>
+</html>
